@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Lumè Aesthetics - Results</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#111111;--white:#FFFFFF;--cream:#FAF7F1;--sand:#F0EAE0;--gold:#B8963E;--gold-light:#D9C08A;--mute:#5F5A52;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Jost',sans-serif;background:var(--cream);color:var(--ink);min-height:100vh;-webkit-font-smoothing:antialiased}
+header{padding:22px;text-align:center;background:var(--ink)}
+header .brand{font-family:'Cormorant Garamond',serif;font-size:28px;letter-spacing:.18em;text-transform:uppercase;color:var(--white)}
+header .tag{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-light);margin-top:6px}
+.wrap,.pub,.gatehead{max-width:960px;margin:0 auto;padding:44px 20px 20px}
+.wrap{padding-bottom:60px}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:500;color:var(--ink);line-height:1.15}
+h1{font-size:38px;margin-bottom:12px}
+h2{font-size:32px;margin-bottom:10px}
+h3{font-size:22px;margin-bottom:6px}
+p{font-size:15px;line-height:1.7;color:#4A4540}
+.eyebrow{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;font-weight:500}
+.warn{border:1px solid var(--gold);background:var(--white);padding:16px 20px;margin:24px 0 32px;font-size:13px;line-height:1.6}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.case{background:var(--white);border:1px solid var(--sand);padding:26px}
+.case .k{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;font-weight:500}
+.case img{width:100%;display:block;border:1px solid var(--sand);margin:14px 0}
+.gate{background:var(--white);max-width:520px;margin:30px auto 40px;padding:44px 40px;border:1px solid var(--sand);box-shadow:0 20px 60px rgba(0,0,0,.06);text-align:center}
+input{width:100%;padding:14px 16px;border:1px solid var(--sand);background:var(--cream);font-family:'Jost',sans-serif;font-size:15px;margin:18px 0 12px;text-align:center;letter-spacing:.1em}
+input:focus{outline:none;border-color:var(--gold)}
+.btn{display:inline-block;background:var(--ink);color:var(--white);border:none;padding:15px 32px;font-family:'Jost',sans-serif;font-size:12px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;cursor:pointer}
+.err{color:#B4534A;font-size:13px;margin-top:10px;display:none}
+footer{text-align:center;padding:22px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#8A847D}
+[hidden]{display:none!important}
+@media (max-width:640px){.grid{grid-template-columns:1fr}.gate{padding:32px 22px}}
+</style>
+</head>
+<body>
+<header><div class="brand">Lum&egrave; Aesthetics</div><div class="tag">Results &middot; skin, and cosmetic medicine after consultation</div></header>
+
+<div class="pub" id="skin">
+  <div class="eyebrow">Skin results &middot; shared with consent</div>
+  <h2>What a skin journey looks like when you can see it.</h2>
+  <p>Skin treatment results can be shown openly. Every one starts with a free consultation and a written journey. Results vary from person to person.</p>
+  <div class="warn">Placeholders. Whitney told us she has not been taking before and afters yet. These generated pairs show the format; they are replaced with Lum&egrave;'s own photos, taken the same way every time with consent captured in the CRM, before anything goes live.</div>
+  <div class="grid">
+    <div class="case"><div class="k">SQT Bio-Microneedling &middot; placeholder</div><h3>Texture and the first lines</h3><img src="assets/results/skin-lines.jpg" alt="Placeholder before and after"><p>A fortnightly journey of SQT and LED. The Renewal Collection, in pictures.</p></div>
+    <div class="case"><div class="k">IPL and photo rejuvenation &middot; placeholder</div><h3>Sun damage and uneven tone</h3><img src="assets/results/skin-pigment.jpg" alt="Placeholder before and after"><p>Pigment treated for the type it was, after the consultation looked properly.</p></div>
+    <div class="case"><div class="k">Hydro microdermabrasion &middot; placeholder</div><h3>Dull, dehydrated skin</h3><img src="assets/results/skin-dry.jpg" alt="Placeholder before and after"><p>The Signature Collection: hydration and glow, then homecare that holds it.</p></div>
+    <div class="case"><div class="k">Skin journey &middot; placeholder</div><h3>Congestion and breakouts</h3><img src="assets/results/skin-acne.jpg" alt="Placeholder before and after"><p>The cause first, then the marks. Three products, no more.</p></div>
+  </div>
+</div>
+
+<div class="gatehead"><div class="eyebrow">Cosmetic medicine &middot; shared after consultation</div><h2>The part we show you in the room.</h2><p>Results for prescription-only treatments are shared after a consultation, with a code from Whitney, in line with Australian advertising rules.</p></div>
+<div class="gate" id="gate">
+  <h1>Enter your code.</h1>
+  <p>This gallery is shared with clients after a consultation. Enter the code from your consultation to view.</p>
+  <input id="code" type="password" placeholder="Access code" onkeydown="if(event.key==='Enter')unlock()">
+  <button class="btn" onclick="unlock()">View gallery</button>
+  <p class="err" id="err">That code does not match. Check the note from your consultation.</p>
+</div>
+
+<div class="wrap" id="gallery" hidden>
+  <h2>Cosmetic medicine results, Bundaberg</h2>
+  <p>Every result here is a Lum&egrave; client, shared with their consent. Results vary from person to person, and what is right for you is decided together in your consultation with Nurse Whitney.</p>
+  <div class="warn">Generated placeholders so you can see the format. These images show the kind of prescription-only cosmetic treatment results shared after consultation only. Not an offer or inducement. Individual results vary.</div>
+  <div class="grid">
+    <div class="case"><div class="k">Placeholder &middot; softening lines</div><h3>Softer, still you</h3><img src="assets/results/cos-eyes.jpg" alt="Placeholder"><p>Concern-led caption, treatment named only after the consult.</p></div>
+    <div class="case"><div class="k">Placeholder &middot; lower face</div><h3>Definition, kept natural</h3><img src="assets/results/cos-lowerface.jpg" alt="Placeholder"><p>Placeholder for a consented before and after.</p></div>
+    <div class="case"><div class="k">Placeholder &middot; neck and jaw</div><h3>The line from jaw to neck</h3><img src="assets/results/cos-neck.jpg" alt="Placeholder"><p>Placeholder for a consented before and after over a course.</p></div>
+  </div>
+</div>
+<footer>Demo built by Clinic Catalyst for Lum&egrave; Aesthetics &middot; not indexed</footer>
+<script>
+function unlock(){const v=document.getElementById('code').value.trim().toLowerCase();if(v==='lume2026'){document.getElementById('gate').hidden=true;document.getElementById('gallery').hidden=false}else{document.getElementById('err').style.display='block'}}
+</script>
+</body>
+</html>

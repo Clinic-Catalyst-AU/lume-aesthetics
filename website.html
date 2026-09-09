@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Lumè Aesthetics by Whitney - Cosmetic nurse and skin clinic, Bundaberg</title>
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Pinyon+Script&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#111111;--ink-2:#1F1D1A;--white:#FFFFFF;--cream:#FAF7F1;--sand:#F0EAE0;--gold:#B8963E;--gold-light:#D9C08A;--mute:#5F5A52;}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Jost',sans-serif;font-weight:300;background:var(--white);color:var(--ink);line-height:1.7;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:500;letter-spacing:.01em}
+.script{font-family:'Pinyon Script',cursive;font-weight:400;color:var(--gold);letter-spacing:0}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.eyebrow{font-size:11px;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);margin-bottom:18px;font-weight:500}
+.btn{display:inline-block;background:var(--ink);color:var(--white);padding:16px 34px;font-size:11.5px;letter-spacing:.26em;text-transform:uppercase;text-decoration:none;font-weight:500;transition:background .2s}
+.btn:hover{background:var(--gold)}
+.btn.light{background:var(--white);color:var(--ink)}
+.btn.gold{background:var(--gold);color:var(--white)}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:var(--white)}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid rgba(17,17,17,.1)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:82px}
+nav .logo img{height:50px;display:block}
+nav ul{display:flex;gap:24px;list-style:none;align-items:center;white-space:nowrap}
+nav a{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);text-decoration:none}
+nav .cta{background:var(--ink);color:var(--white);padding:11px 20px}
+@media (max-width:900px){nav ul{display:none}}
+header.hero{position:relative;background:var(--ink);color:var(--white);overflow:hidden}
+header.hero video.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 40%;opacity:.5;filter:saturate(.6)}
+header.hero .scrim{position:absolute;inset:0;background:linear-gradient(90deg,rgba(17,17,17,.96) 0%,rgba(17,17,17,.8) 50%,rgba(17,17,17,.4) 100%)}
+header.hero .wrap{position:relative;z-index:2;padding:96px 28px 96px;display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+@media (max-width:900px){header.hero .wrap{grid-template-columns:1fr;gap:40px;padding-top:42vh}header.hero video.bg{opacity:.65;object-position:center top}header.hero .scrim{background:linear-gradient(180deg,rgba(0,0,0,.05) 0,rgba(0,0,0,.3) 30vh,rgba(0,0,0,.88) 44vh,rgba(0,0,0,.92) 100%)}}
+@media (prefers-reduced-motion:reduce){header.hero video.bg{display:none}}
+header.hero .eyebrow{color:var(--gold-light)}
+header.hero h1{font-size:clamp(34px,4.6vw,60px);line-height:1.1;max-width:15ch;color:var(--white);font-weight:400}
+header.hero h1 .script{font-size:1.25em;color:var(--gold-light)}
+header.hero .tag{font-size:clamp(15px,1.6vw,18px);max-width:54ch;margin:26px 0 34px;color:rgba(255,255,255,.86)}
+.pillars{display:flex;border-top:1px solid rgba(255,255,255,.3);margin-top:40px;max-width:640px}
+.pillars div{flex:1;padding:18px 0 0;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-light);border-right:1px solid rgba(255,255,255,.25);text-align:center}
+.pillars div:last-child{border-right:none}
+.quiet{margin-top:22px;font-size:13px;color:rgba(255,255,255,.7)}
+.quiet a{color:var(--white);text-decoration:underline;text-underline-offset:4px}
+.hform{background:var(--white);color:var(--ink);padding:34px 32px;border-top:4px solid var(--gold);box-shadow:0 30px 70px rgba(0,0,0,.5)}
+.hform .k{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;font-weight:500}
+.hform h3{font-size:30px;color:var(--ink);margin-bottom:6px}
+.hform p{font-size:13.5px;color:var(--mute);margin-bottom:16px}
+.hform label{display:block;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin:10px 0 5px;font-weight:500}
+.hform input,.hform select{width:100%;padding:12px 14px;border:1px solid var(--sand);background:var(--cream);font-family:'Jost',sans-serif;font-size:14px;color:var(--ink)}
+.hform .btn{width:100%;text-align:center;margin-top:16px;padding:15px 20px}
+.hform .fine{font-size:11px;color:#8A847D;margin:12px 0 0;line-height:1.5}
+.hform .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:520px){.hform .row{grid-template-columns:1fr}}
+section{padding:96px 0}
+section.alt{background:var(--cream)}
+section.dark{background:var(--ink);color:var(--white)}
+section h2{font-size:clamp(28px,3.4vw,44px);line-height:1.15;margin-bottom:22px;max-width:24ch;color:var(--ink)}
+section h2 .script{font-size:1.2em}
+section.dark h2,section.dark h3{color:var(--white)}
+section.dark .eyebrow{color:var(--gold-light)}
+.lead{font-size:17px;max-width:62ch;color:var(--mute)}
+section.dark .lead{color:rgba(255,255,255,.85)}
+.offer{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+@media (max-width:860px){.offer{grid-template-columns:1fr}}
+.offer-card{background:var(--white);border:1px solid var(--gold-light);padding:40px;position:relative;text-align:center}
+.offer-card:before{content:'';position:absolute;inset:8px;border:1px solid var(--sand);pointer-events:none}
+.offer-card .k{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);font-weight:500}
+.offer-card h3{font-size:34px;margin:12px 0 4px}
+.offer-card .script{font-size:30px;display:block;margin-bottom:14px}
+.offer-card .price{font-family:'Cormorant Garamond',serif;font-size:56px;line-height:1;color:var(--ink)}
+.offer-card .price small{font-size:16px;color:var(--mute);text-decoration:line-through;margin-left:10px;font-family:'Jost',sans-serif}
+.offer-card .save{display:inline-block;margin-top:8px;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold);padding:6px 14px}
+.offer-card ul{list-style:none;margin:22px 0 26px;text-align:left}
+.offer-card li{padding:10px 0;border-top:1px solid var(--sand);font-size:14.5px;color:var(--mute);display:flex;gap:12px}
+.offer-card li:before{content:'';width:7px;height:7px;border-radius:50%;background:var(--gold);flex:none;margin-top:9px}
+.grid6{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
+@media (max-width:900px){.grid6{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.grid6{grid-template-columns:1fr}}
+.concern{background:var(--white);padding:30px 24px;border:1px solid var(--sand);border-top:2px solid var(--gold);text-decoration:none;color:inherit;display:block;transition:transform .2s}
+.concern:hover{transform:translateY(-4px)}
+.concern .n{font-size:11px;letter-spacing:.28em;color:var(--gold);margin-bottom:12px;font-weight:500}
+.concern h3{font-size:22px;margin-bottom:10px}
+.concern p{font-size:14px;color:var(--mute)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:44px}
+@media (max-width:900px){.steps{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.steps{grid-template-columns:1fr}}
+.jstep{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.16);padding:26px}
+.jstep .n{font-family:'Cormorant Garamond',serif;font-size:36px;color:var(--gold-light);line-height:1;margin-bottom:8px}
+.jstep h3{font-size:21px;margin-bottom:8px;color:var(--white)}
+.jstep p{font-size:14px;color:rgba(255,255,255,.8)}
+.menu{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+@media (max-width:900px){.menu{grid-template-columns:1fr}}
+.pkg{background:var(--white);border:1px solid var(--sand);padding:30px 26px;text-align:center}
+.pkg .k{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);font-weight:500}
+.pkg h3{font-size:26px;margin:8px 0 0}
+.pkg .script{font-size:26px;display:block;margin-bottom:10px}
+.pkg .price{font-family:'Cormorant Garamond',serif;font-size:36px;line-height:1.1}
+.pkg .price small{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);display:block;margin-top:4px;font-family:'Jost',sans-serif}
+.pkg p{font-size:13.5px;color:var(--mute);margin-top:12px}
+.club{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+@media (max-width:860px){.club{grid-template-columns:1fr}}
+.tick{list-style:none;margin-top:24px}
+.tick li{padding:12px 0;border-top:1px solid var(--sand);font-size:15px;color:var(--mute);display:flex;gap:14px}
+.tick li:before{content:'';width:7px;height:7px;border-radius:50%;background:var(--gold);flex:none;margin-top:9px}
+.photo{width:100%;aspect-ratio:4/5;object-fit:cover;display:block;border:1px solid var(--sand)}
+.team{display:grid;grid-template-columns:1fr 1.1fr;gap:70px;align-items:center}
+@media (max-width:860px){.team{grid-template-columns:1fr}}
+.people{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:26px}
+.person{display:flex;gap:14px;align-items:center;background:var(--white);border:1px solid var(--sand);padding:14px}
+.person img{width:84px;height:84px;border-radius:50%;object-fit:cover;flex:none}
+.person h4{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:20px}
+.person p{font-size:12.5px;color:var(--mute);line-height:1.5}
+.qa{margin-top:36px;border-top:1px solid var(--sand)}
+.qa details{border-bottom:1px solid var(--sand)}
+.qa summary{cursor:pointer;list-style:none;padding:20px 0;font-family:'Cormorant Garamond',serif;font-size:20px;display:flex;justify-content:space-between;gap:20px}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary::after{content:'+';color:var(--gold)}
+.qa details[open] summary::after{content:'\2013'}
+.qa p{padding:0 0 20px;font-size:15px;max-width:66ch;color:var(--mute)}
+.edu{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:40px}
+@media (max-width:860px){.edu{grid-template-columns:1fr}}
+.vid{background:var(--white);border:1px solid var(--sand);padding:24px}
+.vid .ph{aspect-ratio:16/9;background:linear-gradient(135deg,#1F1D1A,#111);display:flex;align-items:center;justify-content:center;color:var(--gold-light);font-size:11px;letter-spacing:.24em;text-transform:uppercase;margin-bottom:16px;text-align:center;padding:0 20px;line-height:1.6}
+.vid h3{font-size:21px;margin-bottom:6px}
+.vid p{font-size:14px;color:var(--mute)}
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}
+@media (max-width:860px){.reviews{grid-template-columns:1fr}}
+.rev{background:var(--white);border:1px solid var(--sand);padding:26px}
+.rev .stars{color:var(--gold);letter-spacing:.2em;font-size:13px;margin-bottom:10px}
+.rev p{font-size:14.5px;color:var(--mute);font-style:italic}
+.rev span{display:block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-top:12px;font-style:normal}
+.consult{text-align:center}
+.consult form{max-width:520px;margin:34px auto 0;display:grid;gap:12px;text-align:left}
+.consult label{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:500}
+.consult input,.consult select,.consult textarea{width:100%;padding:14px 16px;border:1px solid var(--sand);background:var(--white);font-family:'Jost',sans-serif;font-size:15px;color:var(--ink)}
+.consult textarea{min-height:110px}
+.fine-p{font-size:13px;color:#8A847D;max-width:62ch;margin:26px auto 0}
+footer{background:var(--ink);color:rgba(255,255,255,.75);padding:60px 0 40px;font-size:13px}
+footer .wrap{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:40px}
+@media (max-width:860px){footer .wrap{grid-template-columns:1fr}}
+footer img{height:54px;margin-bottom:16px}
+footer h4{font-family:'Jost',sans-serif;font-weight:500;font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold-light);margin-bottom:12px}
+footer a{color:rgba(255,255,255,.85);text-decoration:none}
+footer .fine{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.2);padding-top:22px;font-size:11px;letter-spacing:.04em;color:rgba(255,255,255,.55)}
+.demo-note{position:fixed;bottom:14px;right:14px;background:#0A2A28;color:#00D4BC;font-size:10px;letter-spacing:.2em;text-transform:uppercase;padding:8px 12px;z-index:20;font-family:'Jost',sans-serif}
+</style>
+</head>
+<body>
+<div class="demo-note">Concept by Clinic Catalyst</div>
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#top"><img src="assets/logo.png" alt="Lumè Aesthetics by Whitney"></a>
+    <ul><li><a href="#intro">SQT intro offer</a></li><li><a href="#concerns">Concerns</a></li><li><a href="#journey">Skin journeys</a></li><li><a href="#menu">Prices</a></li><li><a href="#team">Whitney and Angel</a></li><li><a href="#learn">Learn</a></li><li><a class="cta" href="#consult">Book a consultation</a></li></ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <video class="bg" autoplay muted loop playsinline preload="metadata" poster="assets/hero-poster.jpg" aria-hidden="true"><source src="assets/hero-clinic.mp4" type="video/mp4"></video>
+  <div class="scrim"></div>
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Cosmetic nurse and skin clinic &middot; Bourbong Street, Bundaberg</div>
+      <h1>Confidence <span class="script">looks good</span> on you.</h1>
+      <p class="tag">Nurse-led cosmetic medicine and skin in one calm room in Earls Arcade. A plan for your skin that starts before the first line, from a nurse who has a special interest in getting ahead of ageing. Every treatment starts with a free consultation, and your skin journey is written down and followed through.</p>
+      <div class="pillars"><div>Nurse-led</div><div>Free consultation</div><div>Skin journeys</div><div>Bundaberg owned</div></div>
+      <p class="quiet">Been here before? <a href="https://bookings.gettimely.com/aestheticnursewhitney/bb/book" target="_blank">Book your next appointment</a></p>
+    </div>
+    <div class="hform" id="hero-form">
+      <div class="k">Not sure where to start?</div>
+      <h3>Tell us about your skin.</h3>
+      <p>Six quick questions, sixty seconds. Whitney reads every one and tells you what she would look at first.</p>
+      <form onsubmit="event.preventDefault();this.innerHTML='<p style=font-size:15px;color:#5F5A52;padding:20px 0>Thank you. Check your texts and your inbox, your consultation times are on the way.</p>'">
+        <div class="row"><div><label>First name</label><input type="text" placeholder="Your first name" required></div><div><label>Mobile</label><input type="tel" placeholder="04.." required></div></div>
+        <label>Email</label><input type="email" placeholder="you@email.com">
+        <label>What is bothering you most?</label><select><option>The first lines, and I want to get ahead of them</option><option>Texture, pores, or dull tired skin</option><option>Pigmentation or sun damage</option><option>Acne, congestion, or the marks they leave</option><option>Unwanted hair, vascular or a tattoo</option><option>Nothing major, I want a plan</option></select>
+        <button class="btn" type="submit">Send to Whitney</button>
+        <p class="fine">Every treatment starts with a free 15-minute consultation. By sending you agree to hear from Lumè Aesthetics by text and email.</p>
+      </form>
+    </div>
+  </div>
+</header>
+
+<section class="alt" id="intro">
+  <div class="wrap offer">
+    <div>
+      <div class="eyebrow">Your first visit</div>
+      <h2>Start with the treatment <span class="script">Bundaberg</span> keeps coming back for.</h2>
+      <p class="lead">SQT Bio-Microneedling is the one our clients talk about. Natural marine microneedles, no machine, no needles in the usual sense, working in the skin for days after you leave. Texture, tone, pores, the first lines, all in one full-face treatment. Your first SQT includes your consultation and your written skin journey, so you leave knowing exactly what comes next.</p>
+      <p class="fine-p" style="margin:22px 0 0;text-align:left">Intro pricing based on the $50-off special Whitney already runs. Confirm the ongoing price and inclusions before this goes live.</p>
+    </div>
+    <div class="offer-card">
+      <div class="k">Intro offer &middot; new clients</div>
+      <h3>SQT Bio-Microneedling</h3>
+      <span class="script">full face, first visit</span>
+      <div class="price">$250 <small>$300</small></div>
+      <span class="save">Save $50</span>
+      <ul>
+        <li>Your free consultation with Nurse Whitney</li>
+        <li>Full-face SQT Bio-Microneedling</li>
+        <li>LED to finish, calm and glowing</li>
+        <li>Your written skin journey, sent to your phone</li>
+        <li>Your three-product homecare, explained</li>
+      </ul>
+      <a class="btn gold" href="#consult">Claim the intro offer</a>
+      <p class="fine-p" style="margin:16px 0 0;font-size:12px">Limited intro spots each week. Suitability is confirmed at your consultation.</p>
+    </div>
+  </div>
+</section>
+
+<section id="concerns">
+  <div class="wrap">
+    <div class="eyebrow">Start with your concern</div>
+    <h2>You do not need to know the treatment. <span class="script">You need a plan.</span></h2>
+    <p class="lead">Nobody searches for a device. You notice something in the mirror. Choose what you are noticing and we will show you what a consultation looks at, and where the plan can go from there, across skin and cosmetic medicine.</p>
+    <div class="grid6">
+      <a class="concern" href="#consult"><div class="n">01</div><h3>Getting ahead of ageing</h3><p>The first lines, loss of firmness, the changes you have started to notice. Whitney's special interest: prevention, planned early, kept natural.</p></a>
+      <a class="concern" href="#consult"><div class="n">02</div><h3>Texture, pores and dullness</h3><p>Rough texture, enlarged pores, skin that has lost its glow. Where SQT, microneedling and hydrodermabrasion come in, in the right order.</p></a>
+      <a class="concern" href="#consult"><div class="n">03</div><h3>Pigmentation and sun damage</h3><p>Sun spots, uneven tone, redness and broken capillaries. IPL and photo rejuvenation, after we have looked properly.</p></a>
+      <a class="concern" href="#consult"><div class="n">04</div><h3>Acne and congestion</h3><p>Breakouts, blocked pores and the marks they leave. The cause first, then the skin afterwards.</p></a>
+      <a class="concern" href="#consult"><div class="n">05</div><h3>Hair, vascular and tattoos</h3><p>IPL hair removal, vascular treatment and tattoo removal on the Superlux. Priced clearly, bookable online.</p></a>
+      <a class="concern" href="#consult"><div class="n">06</div><h3>Cosmetic medicine</h3><p>Nurse-led anti-wrinkle, threads and the treatments we talk through in the room. Always a consultation first, in line with Australian advertising rules.</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="journey">
+  <div class="wrap">
+    <div class="eyebrow">Skin journeys</div>
+    <h2>Fifteen minutes to talk. Then a plan you can hold.</h2>
+    <p class="lead">Your consultation is free, and there is no pressure to go ahead with anything. If we do, you leave with a written skin journey: three to six months, mapped fortnightly, with your homecare and your budget, and we follow it up with you rather than hoping you remember.</p>
+    <div class="steps">
+      <div class="jstep"><div class="n">01</div><h3>We talk</h3><p>Your history, your goals, what you have tried. A proper look at your skin, and photos taken the same way every time so you can see the change.</p></div>
+      <div class="jstep"><div class="n">02</div><h3>We plan</h3><p>A written journey: what, in what order, how often. SQT, microneedling, peels, LED, IPL, cosmetic medicine where it fits. Sent to you the same day.</p></div>
+      <div class="jstep"><div class="n">03</div><h3>We follow up</h3><p>A text the next day, a little education about your pathway, and a reminder when your next fortnight comes around. No chasing.</p></div>
+      <div class="jstep"><div class="n">04</div><h3>We keep going</h3><p>Your next appointment is booked before you leave. Your three products are reordered before you run out. Your progress photos tell the story.</p></div>
+    </div>
+    <a class="btn light" href="#consult" style="margin-top:36px">Book your free consultation</a>
+  </div>
+</section>
+
+<section class="alt" id="menu">
+  <div class="wrap">
+    <div class="eyebrow">Skin collections</div>
+    <h2>Priced clearly, <span class="script">bookable online.</span></h2>
+    <p class="lead">The skin packages from Whitney's current collections, with the treatments and the saving shown, so nobody has to message to ask what things cost. Cosmetic medicine is discussed and quoted at your consultation.</p>
+    <div class="menu">
+      <div class="pkg"><div class="k">Most popular</div><h3>The Essential</h3><span class="script">Collection</span><div class="price">$300<small>Save $25</small></div><p>SQT Bio-Microneedling and LED light therapy.</p></div>
+      <div class="pkg"><div class="k">Glow</div><h3>The Radiance</h3><span class="script">Collection</span><div class="price">$150<small>Save $35</small></div><p>Dermaplaning, hydrojelly mask or enzyme peel, and LED.</p></div>
+      <div class="pkg"><div class="k">Firm</div><h3>The Signature</h3><span class="script">Collection</span><div class="price">$380<small>Save $45</small></div><p>Full face RF tightening, full face hydro microdermabrasion, and LED.</p></div>
+      <div class="pkg"><div class="k">Journey</div><h3>The Renewal</h3><span class="script">Collection</span><div class="price">$900<small>Save $75</small></div><p>Three SQT Bio-Microneedling and three LED, a fortnightly journey.</p></div>
+      <div class="pkg"><div class="k">Journey</div><h3>The Skin Investment</h3><span class="script">Collection</span><div class="price">$1,200<small>Save $145</small></div><p>Three face, neck and d&eacute;colletage hydro microdermabrasion, three exosome, three LED.</p></div>
+      <div class="pkg"><div class="k">Single</div><h3>SQT Bio-Microneedling</h3><span class="script">full face</span><div class="price">$300<small>Intro $250</small></div><p>The treatment that started it. First visit $250 with your consultation and skin journey.</p></div>
+    </div>
+    <p class="fine-p" style="margin:28px 0 0;text-align:left">Prices from Lumè Aesthetics' September collections posts. Confirm every price with Whitney before this goes live.</p>
+  </div>
+</section>
+
+<section id="club">
+  <div class="wrap club">
+    <div><img class="photo" src="assets/whitney-sqt.jpg" alt="Nurse Whitney performing SQT Bio-Microneedling" style="aspect-ratio:4/5;object-position:center 20%"></div>
+    <div>
+      <div class="eyebrow">Lumè Club</div>
+      <h2>Good skin is a rhythm. <span class="script">The Club keeps it.</span></h2>
+      <p class="lead">A monthly membership for the clients who want their skin looked after without thinking about it. Your fortnightly treatments planned, your three products reordered before you run out, and first invitation to Lumè nights.</p>
+      <ul class="tick">
+        <li>Your skin journey booked ahead, so it never falls off the list</li>
+        <li>Homecare reordered and posted before you run out</li>
+        <li>Member pricing on cosmetic medicine, quoted in the room</li>
+        <li>Lumè nights: bring a friend to her first consultation, demos, and offers only in the room</li>
+      </ul>
+      <p class="fine-p" style="margin:22px 0 0;text-align:left">Membership pricing and inclusions to be confirmed with Whitney. Placeholder copy.</p>
+      <div style="margin-top:26px"><a class="btn" href="#consult">Start with a consultation</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="team">
+  <div class="wrap team">
+    <div><img class="photo" src="assets/team.jpg" alt="A consultation at Lumè Aesthetics" style="aspect-ratio:4/3;object-position:center 30%"><img class="photo" src="assets/sign.jpg" alt="Lumè Aesthetics, Earls Arcade" style="aspect-ratio:16/9;margin-top:14px;object-position:center 40%"></div>
+    <div>
+      <div class="eyebrow">Whitney and Angel</div>
+      <h2>Two nurses. <span class="script">One calm room.</span></h2>
+      <p class="lead">Whitney is a cosmetic nurse with a special interest in preventing the long-term effects of ageing, and the person you see for cosmetic medicine, skin and threads. Angel, her sister, is a nurse too, in the clinic on Fridays for cosmetic medicine and skin. Lumè opened its own doors in Earls Arcade in December 2025.</p>
+      <div class="people">
+        <div class="person"><img src="assets/whitney-sqt.jpg" alt="Nurse Whitney" style="object-position:center 25%"><div><h4>Nurse Whitney</h4><p>Cosmetic nurse and founder. A special interest in getting ahead of ageing. Cosmetic medicine, threads, SQT, IPL.</p></div></div>
+        <div class="person"><div class="ph" style="width:84px;height:84px;border-radius:50%;background:var(--sand);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:34px;color:var(--gold);flex:none">A</div><div><h4>Nurse Angel</h4><p>Nurse. Fridays. Cosmetic medicine and skin, building her book, and the one behind our socials. Photo to come.</p></div></div>
+      </div>
+      <div class="qa">
+        <details><summary>Do I need to know what treatment I want?</summary><p>No. Tell us what you are noticing. The consultation is free and works out the plan, and we explain every option before anything is booked.</p></details>
+        <details><summary>Is the consultation really free?</summary><p>Yes. Around fifteen minutes, no pressure to go ahead. If we plan a journey together, your first SQT at the intro price includes it.</p></details>
+        <details><summary>Can I see results before I book?</summary><p>Skin results are shared with consent on this site. Results for prescription-only cosmetic treatments are shared after your consultation, in line with Australian advertising rules.</p></details>
+        <details><summary>What about my products?</summary><p>Three products, chosen for your skin, with a routine you can actually do. Reordered before you run out, posted to your door.</p></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="learn">
+  <div class="wrap">
+    <div class="eyebrow">Learn</div>
+    <h2>What we look at, <span class="script">explained plainly.</span></h2>
+    <p class="lead">Short videos from the room, so you understand what is possible before you book. Placeholders until we film with Whitney and Angel.</p>
+    <div class="edu">
+      <div class="vid"><div class="ph">Video placeholder</div><h3>What SQT actually does in your skin</h3><p>Why there is no machine, what happens over the next few days, and who it is for.</p></div>
+      <div class="vid"><div class="ph">Video placeholder</div><h3>Getting ahead of ageing in your thirties</h3><p>What a preventative plan is, what it is not, and why earlier is calmer.</p></div>
+      <div class="vid"><div class="ph">Video placeholder</div><h3>What a free consultation involves</h3><p>Fifteen minutes, the questions we ask, and what you leave with.</p></div>
+      <div class="vid"><div class="ph">Video placeholder</div><h3>Skin after cosmetic medicine</h3><p>Why clients come back for skin, and how the two work together.</p></div>
+      <div class="vid"><div class="ph">Video placeholder</div><h3>The three products, and nothing else</h3><p>Whitney's rule for homecare: simple, prescribed, reordered for you.</p></div>
+      <div class="vid"><div class="ph">Video placeholder</div><h3>Meet Angel</h3><p>Fridays at Lumè, and what she brings to the room.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="reviews">
+  <div class="wrap">
+    <div class="eyebrow">Google reviews</div>
+    <h2>What Bundaberg says after their first visit.</h2>
+    <p class="lead">Placeholder strip: pulled live from Google once the review request is running. Verbatim client reviews only, no edited testimonials.</p>
+    <div class="reviews">
+      <div class="rev"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>Live Google review text appears here.</p><span>Google &middot; Bundaberg</span></div>
+      <div class="rev"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>Live Google review text appears here.</p><span>Google &middot; Bundaberg</span></div>
+      <div class="rev"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>Live Google review text appears here.</p><span>Google &middot; Bundaberg</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="consult" id="consult">
+  <div class="wrap">
+    <div class="eyebrow">Book your free consultation</div>
+    <h2 style="margin:0 auto 14px;max-width:none">Start with your skin.</h2>
+    <p class="lead" style="margin:0 auto">Tell us what you are noticing. You will get a text with consultation times to choose from, and if you are claiming the SQT intro offer, say so and we will book it in the same visit.</p>
+    <form onsubmit="event.preventDefault();this.innerHTML='<p class=lead style=text-align:center>Thank you. Check your texts and your inbox, the clinic will send times shortly.</p>'">
+      <div><label>First name</label><input type="text" placeholder="Your first name"></div>
+      <div><label>Mobile</label><input type="tel" placeholder="04.."></div>
+      <div><label>Email</label><input type="email" placeholder="you@email.com"></div>
+      <div><label>What is bothering you most?</label><select><option>Getting ahead of ageing</option><option>Texture, pores or dullness</option><option>Pigmentation or sun damage</option><option>Acne or congestion</option><option>Hair, vascular or tattoo</option><option>Cosmetic medicine</option></select></div>
+      <div><label>Would you like the SQT intro offer?</label><select><option>Yes, book it with my consultation</option><option>Consultation only for now</option></select></div>
+      <div><label>Anything you want us to know</label><textarea placeholder="What you have tried, how long, what bothers you most"></textarea></div>
+      <button class="btn" type="submit">Send to Whitney</button>
+    </form>
+    <p class="fine-p">Consultations are free and around fifteen minutes at Shop 4, 176 Bourbong Street, Earls Arcade, Bundaberg. Individual results vary. Suitability for any treatment is decided at consultation.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div><img src="assets/logo-white.png" alt="Lumè Aesthetics by Whitney"><p>Nurse-led cosmetic medicine and skin clinic in Bundaberg. Confidence looks good on you.</p></div>
+    <div><h4>Visit</h4><p>Shop 4, 176 Bourbong Street<br>Earls Arcade, Bundaberg QLD 4670</p></div>
+    <div><h4>Book</h4><p><a href="https://bookings.gettimely.com/aestheticnursewhitney/bb/book" target="_blank">Online booking</a><br>1800 930 440</p></div>
+    <div><h4>Contact</h4><p>aestheticnursewhitney@gmail.com<br><a href="https://www.instagram.com/lume.aesthetics.bywhitney/" target="_blank">@lume.aesthetics.bywhitney</a></p></div>
+    <div class="fine">Website concept prepared by Clinic Catalyst for Lumè Aesthetics by Whitney. Logo, prices and clinic photography from the clinic's Facebook page; hero footage is a placeholder until we film in the room. Individual results vary. Treatment suitability is determined at consultation. &copy; 2026 Lumè Aesthetics.</div>
+  </div>
+</footer>
+</body>
+</html>
